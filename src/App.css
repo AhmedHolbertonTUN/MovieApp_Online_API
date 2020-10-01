@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: #e9e9e9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #010b26;
+}
+
+* {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media Running time and (max-width: 500px) {
+  .card-view {
+    width: 95%;
+    max-width: 95%;
+    margin: 1em;
+    display: block;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.demoFont {
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 35px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #02BF90;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+text-transform: capitalize;
+  }
